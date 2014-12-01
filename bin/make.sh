@@ -1,0 +1,1 @@
+bin/mkbootimg --kernel arch/arm/boot/zImage --ramdisk initrd-stock.img --cmdline 'console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31 echi-hcd.park=3' --base 0x00000000 --pagesize 2048 --ramdisk_offset 0x2008000 --dt dtb --tags_offset 0x01e00000 -o boot.img
